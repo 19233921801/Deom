@@ -1,0 +1,25 @@
+# ---------- 密钥与环境（绝对不要上传） ----------
+.env
+*.env
+*.env.local
+
+# ---------- 运行产物 ----------
+# Chroma 向量数据库本地落盘目录
+memory_db/
+# Python 缓存
+__pycache__/
+*.py[cod]
+*$py.class
+
+# ---------- 虚拟环境 / IDE ----------
+.venv/
+venv/
+env/
+.idea/
+.vscode/
+*.iml
+
+# ---------- 其它 ----------
+.DS_Store
+*.log
+demo.gif
